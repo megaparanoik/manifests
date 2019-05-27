@@ -4,10 +4,18 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+  
+  <remote  name="private"
+           fetch="git@github.com:megaparanoik/Test_repo_1.git"
+           pushurl="git@github.com:megaparanoik/Test_repo_1.git" />
+  
+
   <default revision="refs/tags/android-9.0.0_r35"
            remote="aosp"
            sync-j="4" />
 
   <project path="art" name="platform/art" groups="pdk" />
+
+  <project path="Test1" name="Test_repo_1" remote="private"/>
 
 </manifest>
