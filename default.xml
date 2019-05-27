@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   
   <remote  name="private"
-           fetch="git@github.com:megaparanoik/"
+           fetch=".."
            pushurl="git@github.com:megaparanoik/" />
   
 
